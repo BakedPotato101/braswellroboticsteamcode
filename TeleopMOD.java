@@ -38,7 +38,7 @@ public class TeleopMOD extends LinearOpMode {
         double x2 = 0; 
         double y2 = 0; 
 
-        double z1 = 9; 
+        
       
 
         /* Initialize the hardware variables.
