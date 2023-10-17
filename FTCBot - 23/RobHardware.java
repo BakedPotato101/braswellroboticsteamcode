@@ -3,12 +3,10 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.util.Range;
-import com.qualcomm.robotcore.hardware.ColorSensor;
 import com.qualcomm.robotcore.util.Hardware;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
-import com.qualcomm.robotcore.hardware.DistanceSensor;
 
 public class RobHardware
 {
@@ -17,9 +15,6 @@ public class RobHardware
     public DcMotor motor2;
     public DcMotor motor3;
     public DcMotor motor4;
-    public ColorSensor colorSensor;
-
-    public DistanceSensor sensorRange;
 
 
     //Create Hardware map
