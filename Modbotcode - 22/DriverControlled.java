@@ -35,20 +35,7 @@ public class DriverControlled extends OpMode{
     robot.init(hardwareMap); //this tells the robot to use the hardware map
     telemetry.addData("STATUS", "Initialized"); //this will tell the status of the robot when on init(), which will be "initialized"
  }
-//------------------------------------------------------------------------------------------------------------------------------------------ 
-                                            //this isn't currently being used in this program
-  //Loop on init()
-    @Override
-    public void init_loop()
- {  
- }
-//------------------------------------------------------------------------------------------------------------------------------------------ 
-                                            //this isn't currently being used in this program
-   //Run once on start()
-    @Override
-    public void start() 
-    {
-    }
+
 //------------------------------------------------------------------------------------------------------------------------------------------ 
                                             //this is the main code that will loop once the robot is started
     //Loop on Start
