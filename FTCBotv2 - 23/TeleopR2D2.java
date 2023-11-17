@@ -16,7 +16,7 @@ public class Test4 extends LinearOpMode {
     private DcMotor motor1;
     private DcMotor motor2;
     private DcMotor motor3;
-    private DcMotor moto4;
+    private DcMotor motor4;
     
     
 
